@@ -28,8 +28,7 @@ Este proyecto es un sitio web de e-commerce completo desarrollado como proyecto 
 
 ## Hosting
 
-[Link al proyecto en hosting] (actualizar con el link real)
-
+[(https://github.com/JoacoRubin/Entrega-Final)]
 ## Autor
 
-Estudiante del curso - Proyecto Final 2025.
+Joaquin Lautaro Rubinstein - Proyecto Final 2025.
