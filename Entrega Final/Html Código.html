@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tienda online con carrito y productos dinámicos">
+  <meta name="keywords" content="tienda, ecommerce, productos, carrito">
+  <title>Mi Tienda Online</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Mi Tienda Online</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#reseñas">Reseñas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#carrito">Carrito (<span id="contador-carrito">0</span>)</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos</h2>
+      <p>¡Explorá nuestros productos exclusivos!</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video demo" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="productos">
+      <h2>Productos</h2>
+      <div class="cards" id="productos-container"></div>
+    </section>
+
+    <section id="reseñas">
+      <h2>Reseñas</h2>
+      <div class="grid-reseñas">
+        <div class="resenia">Excelente producto. ⭐⭐⭐⭐⭐</div>
+        <div class="resenia">Muy buena atención. ⭐⭐⭐⭐</div>
+        <div class="resenia">Llegó rápido. ⭐⭐⭐⭐⭐</div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/tu-id-aqui" method="POST">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="carrito">
+      <h2>Carrito de Compras</h2>
+      <div id="carrito-container"></div>
+      <p>Total: $<span id="total-carrito">0</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mi Tienda Online</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
